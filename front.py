@@ -13,7 +13,7 @@ if uploaded_file is not None:
 
     if predict:
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://tauheed1880-number-prediction-frontend.hf.space/predict",
             files={
                 "file": (
                     uploaded_file.name,
